@@ -14,10 +14,10 @@ public class DatabaseConnector {
 	public static void main(String args[])
 	{
 		try {
-			String dbUrl="jdbc:db2://maximo.eam360.com:50005/maxdb77";
+			String dbUrl="";
 			String driver="com.ibm.db2.jcc.DB2Driver";
-			String uName="maxim";
-			String passWord="Eam360maximo";
+			String uName="";
+			String passWord="";
 			
 			Class.forName(driver);
 			Connection con=DriverManager.getConnection(dbUrl,uName,passWord);  
